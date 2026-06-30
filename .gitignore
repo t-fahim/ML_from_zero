@@ -1,0 +1,154 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================
+# Virtual Environments
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing & Coverage
+# ==========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+hypothesis/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# ML Models
+# ==========================
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.tflite
+*.joblib
+*.pkl
+*.pickle
+
+# ==========================
+# Datasets
+# ==========================
+raw_data/
+processed_data/
+
+# Keep directory structure
+!data/.gitkeep
+
+# ==========================
+# Experiment Tracking
+# ==========================
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+tb_logs/
+
+# ==========================
+# Outputs
+# ==========================
+outputs/
+results/
+predictions/
+artifacts/
+
+# Images generated during training
+*.png
+*.jpg
+*.jpeg
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# Documentation Build
+# ==========================
+docs/_build/
+
+# ==========================
+# Package Managers
+# ==========================
+pip-wheel-metadata/
+
+# ==========================
+# Type Checking
+# ==========================
+.pytype/
+
+# ==========================
+# Local Config
+# ==========================
+.local/
